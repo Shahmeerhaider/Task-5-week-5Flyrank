@@ -163,7 +163,8 @@ your own real output.
 
 ```json
 
-<img width="950" height="477" alt="image" src="https://github.com/user-attachments/assets/290d5df4-83f1-4891-aa88-ac6e3e9a453a" />
+<img width="1130" height="359" alt="image" src="https://github.com/user-attachments/assets/09f8a18e-068e-453f-b46e-c8725b171c20" />
+
 
 
 
