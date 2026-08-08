@@ -1,5 +1,3 @@
-// Turns raw text into values a program can sort and compare, while
-// keeping the original text alongside the clean value.
 
 function priceTextToGbp(priceText) {
   const match = String(priceText || "").match(/([\d.]+)/);
