@@ -162,10 +162,17 @@ your own real output.
 ### Your real run-report.json goes here
 
 ```json
-
-<img width="1130" height="359" alt="image" src="https://github.com/user-attachments/assets/09f8a18e-068e-453f-b46e-c8725b171c20" />
-
-
+{
+  "started_at": "2026-08-08T09:08:32.661Z",
+  "duration_ms": 63856,
+  "catalogue_pages": 3,
+  "discovered_urls": 60,
+  "pages_fetched": 63,
+  "cache_hits": 0,
+  "valid_records": 60,
+  "invalid_records": 0,
+  "failed_pages": 0
+}
 
 
 ```
