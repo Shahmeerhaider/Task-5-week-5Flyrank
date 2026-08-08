@@ -18,6 +18,7 @@ function toCsv(records) {
     const str = value === null || value === undefined ? "" : String(value);
     return `"${str.replace(/"/g, '""')}"`;
   };
+  
   const lines = [headers.join(",")];
   for (const record of records) {
     lines.push(headers.map((h) => escape(record[h])).join(","));
