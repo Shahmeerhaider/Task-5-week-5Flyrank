@@ -1,8 +1,3 @@
-// Reads one book detail page and returns the eight raw fields, exactly
-// as specified. Selectors are aimed at the product area of the page,
-// not the whole document, so a second unrelated price elsewhere on the
-// page can never be picked up by accident. A missing description is
-// stored as null -- never invented.
 
 const cheerio = require("cheerio");
 
