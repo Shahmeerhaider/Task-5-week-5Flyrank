@@ -1,7 +1,3 @@
-// Every real request: identifies itself, times out, waits between calls,
-// checks the status code, retries only on timeouts and 5xx, and caches
-// every successful response so re-runs during development never hit the
-// site again for the same URL.
 
 const fs = require("fs");
 const path = require("path");
