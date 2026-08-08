@@ -1,6 +1,3 @@
-// Reads one catalogue listing page: every book link, turned into an
-// absolute URL with the platform's own URL resolver (never string
-// concatenation), plus the "next page" link if one exists.
 
 const cheerio = require("cheerio");
 
